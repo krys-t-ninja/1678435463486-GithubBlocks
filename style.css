@@ -1,0 +1,38 @@
+img {
+    height: 200px;
+}
+.container {
+    display: flex;
+    flex-direction: column;
+    background-color: azure;
+    margin: 10px;
+    width: 100%;
+}
+h1 {
+    text-align: center;
+    font-size: 40pt;
+    color: lightslategrey;
+}
+.top, .end {
+    background-color: firebrick;
+    margin: 10px;
+    display: flex;
+    justify-content: space-around;
+    margin: 20px;
+    padding: 10px;
+}
+.center {
+    background-color: indianred;
+    display: flex;
+    justify-content: space-around;
+    margin: 20px;
+    padding: 10px;
+}
+
+footer { 
+    display: flex;
+    justify-content: center;
+    font-size: smaller;
+
+
+}
